@@ -6,7 +6,7 @@ int main()
     double num1, num2;
     double sum, difference, product, quotient;
 
-    // Input two numbers from the user
+    
     printf("Enter first number: ");
     scanf("%lf", &num1);
     
