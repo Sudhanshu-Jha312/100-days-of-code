@@ -1,0 +1,20 @@
+//Write a program to swap two numbers without using a third variable.
+
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    printf("Enter two integers:\n");
+    scanf("%d%d", &a, &b);
+
+    printf("Before swapping: a = %d, b = %d\n", a, b);
+
+    a = a + b; // Step 1: 'a' now holds the sum of both numbers
+    b = a - b; // Step 2: Subtracting 'b' from sum gives original 'a'. Store it in 'b'.
+    a = a - b; // Step 3: Subtracting new 'b' (original 'a') from sum gives original 'b'. Store it in 'a'.
+
+    printf("After swapping: a = %d, b = %d\n", a, b);
+
+    return 0;
+}
