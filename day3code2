@@ -13,9 +13,9 @@ int main() {
     printf("First number = %d\n", first);
     printf("Second number = %d\n", second);
 
-    temp = first;   // Step 1: Copy first number to temp
-    first = second; // Step 2: Copy second number to first
-    second = temp;  // Step 3: Copy temp value to second
+    temp = first;   
+    first = second; 
+    second = temp;  
   
     printf("\nAfter swapping:\n");
     printf("First number = %d\n", first);
