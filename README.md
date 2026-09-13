@@ -1,55 +1,177 @@
 # 🚀 100 Days of Code — UPES Challenge
 
-<p align="center">
+Hey! 👋
 
-### 💻 Code • Learn • Solve • Repeat
+This repository is where I'm documenting my **100 Days of Code journey as part of the UPES challenge**.
 
-A 100-day journey to build a strong foundation in **C programming, logical thinking, and problem-solving**.
+The challenge is pretty simple: **every day, two new problems are released, and I have to solve them using C.**
 
-</p>
+My main goal isn't just to complete 200 problems. I want to become more comfortable with programming, improve my logical thinking, and learn how to approach problems on my own.
 
----
-
-## 📌 About the Challenge
-
-The **100 Days of Code — UPES Challenge** is a daily coding challenge where **two new programming problems are released every day**.
-
-My goal is to stay consistent for 100 days, solve each problem using **C**, and gradually develop the skills required to approach programming problems logically and independently.
-
-### 🎯 Challenge Target
-
-| Goal                |                  Target |
-| ------------------- | ----------------------: |
-| 📅 Duration         |                100 Days |
-| 💻 Language         |                       C |
-| 🧩 Problems per Day |                       2 |
-| 🏆 Total Problems   |                     200 |
-| 🧠 Main Focus       | Logic & Problem Solving |
-| 📚 Foundation       |           C Programming |
+I'm starting with the basics and slowly building my way up.
 
 ---
 
-## 📊 Progress
+## 🎯 What I Want to Achieve
+
+Over these 100 days, I want to:
+
+* Get comfortable with **C programming**
+* Improve my logical thinking
+* Get better at solving problems
+* Understand how to break a problem into smaller steps
+* Learn from my mistakes and debugging
+* Build consistency in coding
+* Develop a strong programming foundation
+
+Most importantly, I want to reach a point where I can look at a problem and **figure out how to solve it instead of immediately looking for the answer.**
+
+---
+
+## 📊 My Progress
 
 ```text
-Days Completed     : 30 / 100
-Problems Solved    : 60 / 200
-Overall Progress   : 30%
+Days Completed  : 30 / 100
+Problems Solved : 60 / 200
+Progress        : 30%
 ```
-
-### 🔥 Progress Bar
 
 ```text
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 30%
 ```
 
-> 🚀 **30 days down. 70 days to go.**
+> 🔥 30 days done. Still a long way to go!
+
+---
+
+# 📚 What I'm Learning
+
+I'm not following a fixed syllabus for all 100 days. The topics are being introduced gradually through the problems.
+
+Here's what I've covered so far:
+
+### 🟢 Day 1 – 5 | Getting Started with C
+
+This is where I started getting familiar with the basics of C.
+
+**Topics:**
+
+* Taking user input
+* Displaying output
+* Variables
+* Data types
+* `printf()`
+* `scanf()`
+* Basic arithmetic
+* Operators
+* Swapping values
+* Basic mathematical and logical problems
+
+The main idea was getting comfortable with:
+
+```text
+Input → Process → Output
+```
+
+---
+
+### 🟡 Day 6 – 12 | Making Decisions
+
+After getting comfortable with basic programs, I started working with conditions.
+
+**Topics:**
+
+* `if`
+* `if-else`
+* `else-if`
+* Nested `if-else`
+* `switch-case`
+* Relational operators
+* Logical operators
+* Billing calculations
+* Discounts
+* Decision-making problems
+
+This stage helped me understand how a program can **make decisions depending on different conditions**.
+
+---
+
+### 🟠 Day 13 – 19 | Loops
+
+This is where programs started doing things repeatedly.
+
+**Topics:**
+
+* `for` loop
+* `while` loop
+* `do-while` loop
+* Counters
+* Number problems
+* Mathematical problems
+* Digit-based problems
+* Loop-based logic
+
+At this stage, I focused on solving problems using loops **without arrays**.
+
+---
+
+### 🔵 Day 20 – 27 | Nested Loops & Strings
+
+Things started getting a little more interesting here.
+
+**Topics:**
+
+* Nested loops
+* Loops inside loops
+* Number patterns
+* Character patterns
+* Pattern-based problems
+* More complex loop logic
+* Introduction to strings
+* String input
+* Basic string manipulation and logic
+
+The main goal here was to improve my ability to think through problems that require **multiple steps and levels of logic**.
+
+---
+
+# 🧠 How I Approach a Problem
+
+I'm trying not to jump straight into writing code.
+
+For each problem, I generally follow these steps:
+
+```text
+Understand the problem
+        ↓
+Figure out the input
+        ↓
+Figure out the expected output
+        ↓
+Think about the logic
+        ↓
+Break it into smaller steps
+        ↓
+Write the code
+        ↓
+Compile & run
+        ↓
+Find and fix mistakes
+        ↓
+Understand the final solution
+```
+
+Sometimes the first solution doesn't work.
+
+That's okay.
+
+**The mistakes are part of the learning process.**
 
 ---
 
 # 🗂️ Repository Structure
 
-Each day has its own folder containing the two problems solved that day.
+Each day has its own folder, with the two problems solved that day.
 
 ```text
 100-Days-of-Code-UPES/
@@ -68,14 +190,6 @@ Each day has its own folder containing the two problems solved that day.
 │   ├── problem-01.c
 │   └── problem-02.c
 │
-├── Day-04/
-│   ├── problem-01.c
-│   └── problem-02.c
-│
-├── Day-05/
-│   ├── problem-01.c
-│   └── problem-02.c
-│
 ├── ...
 │
 ├── Day-30/
@@ -86,216 +200,35 @@ Each day has its own folder containing the two problems solved that day.
     └── tracker.md
 ```
 
----
-
-# 📚 Learning Roadmap
-
-The first 27 days focus on gradually building programming fundamentals.
-
-The concepts are introduced step-by-step, with each stage building upon the previous one.
+As the challenge continues, I'll keep adding new day folders.
 
 ---
 
-## 🟢 Day 1 – Day 5
+# ▶️ How to Run the Programs
 
-### C Fundamentals & Basic Logic
+All the programs in this repository are written in **C**.
 
-**Topics:**
+You'll need a C compiler such as **GCC**.
 
-* C program structure
-* `#include <stdio.h>`
-* `main()`
-* `printf()`
-* `scanf()`
-* Variables
-* Data types
-* User input
-* Output
-* Arithmetic operators
-* Basic mathematical operations
-* Swapping values
-* Basic logical thinking
-
-**Main Goal:**
-
-Understand how a basic C program works:
-
-```text
-Input → Processing → Output
-```
-
----
-
-## 🟡 Day 6 – Day 12
-
-### Decision Making
-
-**Topics:**
-
-* `if`
-* `if-else`
-* `else-if`
-* Nested `if-else`
-* `switch-case`
-* Relational operators
-* Logical operators
-* Conditional expressions
-* Billing calculations
-* Discount calculations
-* Eligibility conditions
-
-**Main Goal:**
-
-Learn how programs can **make decisions based on conditions**.
-
-```text
-             Condition
-                 │
-        ┌────────┴────────┐
-       TRUE             FALSE
-        │                 │
-     Action 1          Action 2
-```
-
----
-
-## 🟠 Day 13 – Day 19
-
-### Loops Without Arrays
-
-**Topics:**
-
-* `for` loop
-* `while` loop
-* `do-while` loop
-* Counters
-* Repetition
-* Number-based problems
-* Mathematical problems
-* Digit-based problems
-* Loop-based logic
-
-**Main Goal:**
-
-Learn how to perform repetitive operations efficiently.
-
-```text
-Start
-  ↓
-Condition
-  ↓
-Execute
-  ↓
-Update
-  ↓
-Condition
-  ↓
-Repeat
-```
-
-> ⚠️ Arrays are not used during this stage.
-
----
-
-## 🔵 Day 20 – Day 27
-
-### Nested Loops, Patterns & Strings
-
-**Topics:**
-
-* Nested loops
-* Loop inside a loop
-* Pattern problems
-* Number patterns
-* Character patterns
-* Advanced loop logic
-* Introduction to strings
-* String input
-* String traversal
-* Character-based logic
-
-**Main Goal:**
-
-Develop stronger logical thinking by solving problems that require multiple levels of repetition and beginning to work with strings.
-
-Example structure:
-
-```text
-Outer Loop
-    │
-    ├── Inner Loop
-    │      ├── Operation
-    │      ├── Operation
-    │      └── Operation
-    │
-    └── Repeat
-```
-
----
-
-# 🧠 My Problem-Solving Approach
-
-For every problem, I try to follow the same process:
-
-```text
-1. Read the problem
-       ↓
-2. Understand what is required
-       ↓
-3. Identify the input
-       ↓
-4. Identify the output
-       ↓
-5. Break the problem into steps
-       ↓
-6. Build the logic
-       ↓
-7. Write the C program
-       ↓
-8. Compile & test
-       ↓
-9. Debug errors
-       ↓
-10. Understand the final solution
-```
-
-The objective is **not just to get the correct answer**.
-
-The objective is to understand the **logic behind the answer**.
-
----
-
-# ▶️ How to Run the Code
-
-All programs in this repository are written in **C**.
-
-## 1. Install GCC
-
-Make sure GCC is installed on your system.
-
-Check your installation:
+### Check if GCC is installed
 
 ```bash
 gcc --version
 ```
 
----
-
-## 2. Clone the Repository
+### Clone the repository
 
 ```bash
 git clone <repository-url>
 ```
 
-Move into the repository:
+Then:
 
 ```bash
 cd 100-Days-of-Code-UPES
 ```
 
----
-
-## 3. Open a Day
+### Go to a particular day
 
 For example:
 
@@ -303,25 +236,21 @@ For example:
 cd Day-01
 ```
 
----
-
-## 4. Compile a Program
+### Compile a program
 
 ```bash
 gcc problem-01.c -o problem-01
 ```
 
----
+### Run it
 
-## 5. Run the Program
-
-### Windows
+**Windows:**
 
 ```bash
 problem-01
 ```
 
-### Linux / macOS
+**Linux/macOS:**
 
 ```bash
 ./problem-01
@@ -331,7 +260,7 @@ problem-01
 
 # 📋 Program Tracker
 
-| Day | Problem 1 | Problem 2 | Main Concepts      | Status |
+| Day | Problem 1 | Problem 2 | Topic              | Status |
 | --: | :-------: | :-------: | ------------------ | :----: |
 |  01 |     ✅     |     ✅     | Input / Output     |    ✅   |
 |  02 |     ✅     |     ✅     | Arithmetic         |    ✅   |
@@ -360,123 +289,102 @@ problem-01
 |  25 |     ✅     |     ✅     | Strings            |    ✅   |
 |  26 |     ✅     |     ✅     | String Logic       |    ✅   |
 |  27 |     ✅     |     ✅     | Mixed Logic        |    ✅   |
-|  28 |     ⬜     |     ⬜     | —                  |    ⬜   |
-|  29 |     ⬜     |     ⬜     | —                  |    ⬜   |
-|  30 |     ⬜     |     ⬜     | —                  |    ⬜   |
+|  28 |     ✅     |     ✅     | —                  |    ✅   |
+|  29 |     ✅     |     ✅     | —                  |    ✅   |
+|  30 |     ✅     |     ✅     | —                  |    ✅   |
+|  31 |     ⬜     |     ⬜     | —                  |    ⬜   |
+|  32 |     ⬜     |     ⬜     | —                  |    ⬜   |
 | ... |     ⬜     |     ⬜     | —                  |    ⬜   |
 | 100 |     ⬜     |     ⬜     | —                  |    ⬜   |
 
-### Legend
+---
 
-```text
-⬜ Not Started
-🟡 In Progress
-✅ Completed
-```
+# 🏆 Milestones
+
+### ✅ 25 Days
+
+**50 problems solved**
+
+A solid start and the basics are starting to make more sense.
+
+### 🔥 50 Days
+
+**100 problems solved**
+
+Halfway there!
+
+### 💪 75 Days
+
+**150 problems solved**
+
+The goal now is to keep improving problem-solving and writing cleaner code.
+
+### 🏆 100 Days
+
+**200 problems solved**
+
+Challenge completed! 🎉
 
 ---
 
-# 📈 Milestones
+# 📈 What I Hope to Improve
 
-### 🟢 25 Days
+By the end of these 100 days, I hope I can:
 
-**50 Problems Solved**
-
-> Built the foundation of C programming and basic problem-solving.
-
-### 🔵 50 Days
-
-**100 Problems Solved**
-
-> Halfway through the challenge.
-
-### 🟠 75 Days
-
-**150 Problems Solved**
-
-> Stronger problem-solving and programming fundamentals.
-
-### 🔴 100 Days
-
-**200 Problems Solved**
-
-> Challenge completed! 🎉
-
----
-
-# 💻 Daily Commitment
-
-Every day I will try to:
-
-* [ ] Solve both problems
-* [ ] Write the solutions in C
-* [ ] Test the programs
-* [ ] Understand the logic
-* [ ] Debug my mistakes
-* [ ] Commit the day's work
-
----
-
-# 🧩 What I Am Building
-
-This challenge is about more than just completing 200 programs.
-
-I want to build the ability to:
-
-* Think logically
-* Break large problems into smaller problems
-* Understand algorithms
-* Write programs independently
+* Write C programs more confidently
+* Solve basic problems without relying on solutions
+* Think more logically
+* Understand programming concepts better
 * Debug my own code
-* Learn from mistakes
-* Improve consistency
-* Build a strong foundation in C
+* Write cleaner code
+* Approach unfamiliar problems without immediately getting stuck
+
+I'm sure there will be days when a problem feels confusing or takes longer than expected.
+
+That's part of the challenge.
+
+**The goal isn't to be perfect every day. The goal is to keep showing up.**
 
 ---
 
-# 🏆 Final Goal
+# 🔥 The Challenge
 
 ```text
-             100 DAYS
-                 │
-                 ▼
-          200 PROBLEMS
-                 │
-                 ▼
-          C FUNDAMENTALS
-                 │
-                 ▼
-        LOGICAL THINKING
-                 │
-                 ▼
-        PROBLEM SOLVING
-                 │
-                 ▼
-       STRONG PROGRAMMING
-          FOUNDATION
+100 Days
+    ↓
+200 Problems
+    ↓
+Lots of Bugs 😅
+    ↓
+Lots of Learning
+    ↓
+Better Logic
+    ↓
+Better Problem Solving
+    ↓
+Stronger C Foundation
 ```
 
-> **Consistency beats perfection.**
->
-> **Don't just solve the problem. Understand the logic.**
+> **One day at a time. One problem at a time.**
 
 ---
 
-# 📌 Challenge Status
+## 📌 Current Status
 
 **Challenge:** 100 Days of Code — UPES
 **Language:** C
-**Duration:** 100 Days
-**Target:** 200 Problems
-**Current Progress:** 30 / 100 Days
-**Current Problems:** 60 / 200
-**Status:** 🚀 In Progress
+**Started:** September 2026
+**Current Day:** 30 / 100
+**Problems Solved:** 60 / 200
+**Progress:** 30%
+**Status:** 🚀 Still going...
 
 ---
 
-## ⭐ Keep Coding
+### ⭐ Thanks for checking out my journey!
 
-**Day by day. Problem by problem. Line by line.**
+I'll keep updating this repository as I continue through the challenge.
 
-#100DaysOfCode #UPES #CProgramming #Programming #ProblemSolving #CodingJourney
+**Let's see where 100 days of consistent coding takes me. 🚀**
+
 
